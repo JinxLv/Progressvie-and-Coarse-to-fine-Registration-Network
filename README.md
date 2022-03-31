@@ -21,8 +21,7 @@ Use this command to obtain the testing results.
 python predict.py -g 0 --batch 1 -d datasets/brain.json -c weights/Dec09-1849
 ```
 
-
-### Citation
+## Citation
 If you use this code as part of any published research, we'd really appreciate it if you could cite the following paper:
 ```
 @article{lv2021joint,
@@ -31,11 +30,11 @@ If you use this code as part of any published research, we'd really appreciate i
   journal={arXiv preprint arXiv:2109.12384},
   year={2021}
 }
+```
 
 ## Acknowledgment
 
 Some codes are modified from [RCN](https://github.com/microsoft/Recursive-Cascaded-Networks) and [VoxelMorph](https://github.com/voxelmorph/voxelmorph).
 Thanks a lot for their great contribution.
 
-}
-```
+
