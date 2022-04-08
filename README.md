@@ -26,7 +26,7 @@ python predict.py -g 0 --batch 1 -d datasets/brain.json -c weights/Apr06-1516
 ```
 
 ## Pre-trained model and testing data on LPBA40
-The [pre-trained model](https://drive.google.com/file/d/1NndVW8beu-fYjDP2mVsOf-WRnX2NCZUQ/view?usp=sharing) and [testing data](https://drive.google.com/file/d/1tU42wwc1qLlwJEI3IHcP30XqOtW0j7hb/view?usp=sharing) are available. Please unzip these files, and move the 'lpba_val.h5' to '/datasets'.
+The [pre-trained model](https://drive.google.com/file/d/1NndVW8beu-fYjDP2mVsOf-WRnX2NCZUQ/view?usp=sharing) and [testing data](https://drive.google.com/file/d/1tU42wwc1qLlwJEI3IHcP30XqOtW0j7hb/view?usp=sharing) are available. Please unzip these files, and move the 'lpba_val.h5' to '/datasets/'.
 
 ## Citation
 If you use this code as part of any published research, we'd really appreciate it if you could cite the following paper:
