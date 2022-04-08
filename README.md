@@ -1,5 +1,7 @@
 # Progressvie-and-Coarse-to-fine-Registration-Network
-The implementation of [Joint Progressive and Coarse-to-fine Registration of Brain MRI via Deformation Field Integration and Non-Rigid Feature Fusion](https://arxiv.org/abs/2109.12384)
+The implementation of our paper "Joint Progressive and Coarse-to-fine Registration of Brain MRI via Deformation Field Integration and Non-Rigid Feature Fusion". 
+
+The motivation of this work is to decompose the deformation field in both progressive and coarse-to-fine manner. Specifically, we first built a unified CNN which can decompose the deformation filed in a coarse-to-fine manner, and then proposed the DFI and NFF modules for the progressive decomposition relying on light-weight decoding blocks instead of those heavy-weight CNN models. For more details, please refer to our [paper](https://arxiv.org/abs/2109.12384)
 
 ## Install
 The packages and their corresponding version we used in this repository are listed in below.
