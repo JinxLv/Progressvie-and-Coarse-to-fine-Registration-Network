@@ -1,7 +1,7 @@
 # Progressvie-and-Coarse-to-fine-Registration-Network
 The implementation of our paper "Joint Progressive and Coarse-to-fine Registration of Brain MRI via Deformation Field Integration and Non-Rigid Feature Fusion". 
 
-The motivation of this work is to decompose the deformation field in both progressive and coarse-to-fine manner for alleviating the difficulty of prediction. Specifically, we first built a unified CNN which can decompose the deformation filed in a coarse-to-fine manner, and then proposed the DFI and NFF modules for the progressive decomposition relying on light-weight decoding blocks instead of heavy-weight CNN models, i.e. VTN. For more details, please refer to our [paper](https://arxiv.org/abs/2109.12384)
+The motivation of this work is to decompose the deformation field in both progressive and coarse-to-fine manner for alleviating the difficulty of prediction. Specifically, we first built a unified CNN which can decompose the deformation filed in a coarse-to-fine manner, and then proposed the DFI and NFF modules for the progressive decomposition relying on light-weight decoding blocks instead of heavy-weight CNN models, i.e. VTN. For more details, please refer to our [paper].(https://arxiv.org/abs/2109.12384)
 
 <img src="./Figure/framework.jpg" width="700px">
 
@@ -24,6 +24,9 @@ Use this command to obtain the testing results.
 ```sh
 python predict.py -g 0 --batch 1 -d datasets/brain.json -c weights/Apr06-1516
 ```
+
+## Pre-trained model and testing data on LPBA40
+The pre-trained model and testing data are available on [Google Drive](https://drive.google.com/file/d/1NndVW8beu-fYjDP2mVsOf-WRnX2NCZUQ/view?usp=sharing, https://drive.google.com/file/d/1tU42wwc1qLlwJEI3IHcP30XqOtW0j7hb/view?usp=sharing). Please unzip these files, and move the 'lpba_val.h5' to '/datasets'.
 
 ## Citation
 If you use this code as part of any published research, we'd really appreciate it if you could cite the following paper:
