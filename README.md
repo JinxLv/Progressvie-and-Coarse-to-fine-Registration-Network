@@ -2,7 +2,7 @@
 The implementation of our paper "Joint Progressive and Coarse-to-fine Registration of Brain MRI via Deformation Field Integration and Non-Rigid Feature Fusion". 
 
 The motivation of this work is to decompose the deformation field in both progressive and coarse-to-fine manner for alleviating the difficulty of prediction. Specifically, we first built a unified CNN which can decompose the deformation filed in a coarse-to-fine manner, and then proposed the DFI and NFF modules for the progressive decomposition relying on light-weight decoding blocks instead of heavy-weight CNN models, i.e. VTN. For more details, please refer to our [paper](https://arxiv.org/abs/2109.12384)
-![merge](./Figure/framework.pdf)
+![merge](./Figure/framework.jpg)
 
 ## Install
 The packages and their corresponding version we used in this repository are listed in below.
