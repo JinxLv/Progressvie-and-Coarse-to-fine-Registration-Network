@@ -1,7 +1,8 @@
 # Progressvie-and-Coarse-to-fine-Registration-Network
 The implementation of our paper "Joint Progressive and Coarse-to-fine Registration of Brain MRI via Deformation Field Integration and Non-Rigid Feature Fusion". 
 
-The motivation of this work is to decompose the deformation field in both progressive and coarse-to-fine manner. Specifically, we first built a unified CNN which can decompose the deformation filed in a coarse-to-fine manner, and then proposed the DFI and NFF modules for the progressive decomposition relying on light-weight decoding blocks instead of those heavy-weight CNN models. For more details, please refer to our [paper](https://arxiv.org/abs/2109.12384)
+The motivation of this work is to decompose the deformation field in both progressive and coarse-to-fine manner for alleviating the difficulty of prediction. Specifically, we first built a unified CNN which can decompose the deformation filed in a coarse-to-fine manner, and then proposed the DFI and NFF modules for the progressive decomposition relying on light-weight decoding blocks instead of heavy-weight CNN models, i.e. VTN. For more details, please refer to our [paper](https://arxiv.org/abs/2109.12384)
+![merge](./Figure/framework.pdf)
 
 ## Install
 The packages and their corresponding version we used in this repository are listed in below.
@@ -14,13 +15,13 @@ The packages and their corresponding version we used in this repository are list
 After configuring the environment, please use this command to train the model.
 
 ```sh
-python train.py -g 0 --batch 1 -d datasets/brain.json -b PCNET -n 1 --round 10000 --epoch 10
+python train.py -g 0 --batch 1 -d datasets/brain.json -b PCNet -n 1 --round 10000 --epoch 10
 ```
 
 ## Testing
 Use this command to obtain the testing results.
 ```sh
-python predict.py -g 0 --batch 1 -d datasets/brain.json -c weights/Dec09-1849
+python predict.py -g 0 --batch 1 -d datasets/brain.json -c weights/Apr06-1516
 ```
 
 ## Citation
