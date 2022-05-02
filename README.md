@@ -39,6 +39,8 @@ If you use this code as part of any published research, we'd really appreciate i
   journal={arXiv preprint arXiv:2109.12384},
   year={2021}
 }
+
+@ARTICLE{9765391,  author={Lv, Jinxin and Wang, Zhiwei and Shi, Hongkuan and Zhang, Haobo and Wang, Sheng and Wang, Yilang and Li, Qiang},  journal={IEEE Transactions on Medical Imaging},   title={Joint Progressive and Coarse-to-fine Registration of Brain MRI via Deformation Field Integration and Non-Rigid Feature Fusion},   year={2022},  volume={},  number={},  pages={1-1},  doi={10.1109/TMI.2022.3170879}}
 ```
 
 ## Acknowledgment
